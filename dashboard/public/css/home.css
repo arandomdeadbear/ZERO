@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Staatliches', cursive;
+  }
+   .container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('/img/background.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 8%;
+    box-sizing: border-box;
+  }
+
+  .row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    color: #fff;
+  }
+
+  .col {
+    flex-basis: 50%;
+  }

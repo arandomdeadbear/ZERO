@@ -1,0 +1,56 @@
+{
+  "name": "zero",
+  "version": "0.0.1",
+  "description": "A multipurpose discord bot.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "start:dev": "nodemon main.js",
+    "start:bot": "node ./bot/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arandomdeadbear/ZERO.git"
+  },
+  "keywords": [
+    "ZERO",
+    "DevBear",
+    "Discord"
+  ],
+  "author": "DeadBear#2010",
+  "license": "Apache License 2.0",
+  "bugs": {
+    "url": "https://github.com/arandomdeadbear/ZERO/issues"
+  },
+  "homepage": "https://github.com/arandomdeadbear/ZERO#readme",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "axios": "^1.3.4",
+    "canvas": "^2.11.0",
+    "chalk": "^4.1.2",
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.4",
+    "mongoose": "^6.8.4",
+    "ms": "^2.1.3",
+    "node-fetch": "^2.6.7",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prettier": "^2.8.3"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@bot": "bot/",
+    "@dashboard": "dashboard/",
+    "@database": "database/",
+    "@schema": "database/schema/",
+    "@utills": "bot/functions/utills",
+    "@config": "bot/config/",
+    "@handler": "bot/functions/handlers"
+  }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="<%= bot.user.displayAvatarURL({ size: 16 }) %>" type="image/x-icon">
+  <link rel="stylesheet" href="css/home.css">
+  <title><%= bot.user.username %> </title>
+</head>
+<body>
+
+  <!-- nav -->
+  <%- include('common/sidebar') -%> 
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1><%= bot.user.username %> </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, at id. Nam, minus sequi numquam nobis dolorum nostrum cum, labore est doloremque, quasi ratione cumque explicabo beatae aut mollitia corrupti!</p>
+      </div>
+      <div class="col">
+       
+      </div>
+    </div>
+  </div>
+</body>
+</html>
